@@ -18,6 +18,9 @@
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
+		<tags>
+			<li>Water</li>
+		</tags>
 	</TerrainDef>
 
 	<TerrainDef>
@@ -37,6 +40,9 @@
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
+		<tags>
+			<li>Water</li>
+		</tags>
 	</TerrainDef>
 
 	<TerrainDef>
@@ -56,6 +62,9 @@
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
+		<tags>
+			<li>Water</li>
+		</tags>
 	</TerrainDef>
 
 	<TerrainDef>
@@ -75,6 +84,9 @@
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
+		<tags>
+			<li>Water</li>
+		</tags>
 	</TerrainDef>
 
 	<TerrainDef>
@@ -94,6 +106,9 @@
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
+		<tags>
+			<li>Water</li>
+		</tags>
 	</TerrainDef>
 
 	<TerrainDef>
@@ -113,6 +128,9 @@
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
+		<tags>
+			<li>Water</li>
+		</tags>
 	</TerrainDef>
 
 	<TerrainDef>
@@ -132,6 +150,9 @@
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
+		<tags>
+			<li>Water</li>
+		</tags>
 	</TerrainDef>
 
 	<TerrainDef>
@@ -151,6 +172,9 @@
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
+		<tags>
+			<li>Water</li>
+		</tags>
 	</TerrainDef>
 
 	<TerrainDef>
@@ -170,6 +194,9 @@
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
+		<tags>
+			<li>Water</li>
+		</tags>
 	</TerrainDef>
 
 	<TerrainDef>
@@ -189,6 +216,9 @@
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
+		<tags>
+			<li>Water</li>
+		</tags>
 	</TerrainDef>
 	
 </Defs>

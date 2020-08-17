@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+  	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>Vanilla Fishing Expanded</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<success>Always</success>
+					    <operations>
+						
+					   		<li Class="PatchOperationAdd">
+								<xpath>Defs/VCE_Fishing.FishableTerrainDef[defName="VCEF_VanillaFishableTerrainsFresh"]/allowedTerrains</xpath>
+								<value>
+									<li>IceMarsh</li>
+									<li>IceMarshT</li>
+									<li>IceDM</li>
+									<li>IceDMT</li>
+									<li>IceSM</li>
+									<li>IceSMT</li>
+									<li>IceD</li>
+									<li>IceDT</li>
+									<li>IceS</li>
+									<li>IceST</li>
+								</value>
+							</li>
+							
+						</operations>
+				</match>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
