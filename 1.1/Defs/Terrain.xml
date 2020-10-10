@@ -16,10 +16,11 @@
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
 		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
 		<tags>
-			<li>Water</li>
+			<li>dbh_water</li>
 		</tags>
 	</TerrainDef>
 
@@ -38,10 +39,11 @@
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
 		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
 		<tags>
-			<li>Water</li>
+			<li>dbh_water</li>
 		</tags>
 	</TerrainDef>
 
@@ -60,10 +62,11 @@
 			<li>Permafrost_Ice</li>
 			<li>BridgeableDeep</li>
 		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
 		<tags>
-			<li>Water</li>
+			<li>dbh_water</li>
 		</tags>
 	</TerrainDef>
 
@@ -82,10 +85,11 @@
 			<li>Permafrost_Ice</li>
 			<li>BridgeableDeep</li>
 		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
 		<tags>
-			<li>Water</li>
+			<li>dbh_water</li>
 		</tags>
 	</TerrainDef>
 
@@ -104,10 +108,11 @@
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
 		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
 		<tags>
-			<li>Water</li>
+			<li>dbh_water</li>
 		</tags>
 	</TerrainDef>
 
@@ -126,10 +131,11 @@
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
 		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
 		<tags>
-			<li>Water</li>
+			<li>dbh_water</li>
 		</tags>
 	</TerrainDef>
 
@@ -148,10 +154,11 @@
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
 		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
 		<tags>
-			<li>Water</li>
+			<li>dbh_water</li>
 		</tags>
 	</TerrainDef>
 
@@ -170,10 +177,11 @@
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
 		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
 		<tags>
-			<li>Water</li>
+			<li>dbh_water</li>
 		</tags>
 	</TerrainDef>
 
@@ -192,10 +200,11 @@
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
 		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
 		<tags>
-			<li>Water</li>
+			<li>dbh_s_water</li>
 		</tags>
 	</TerrainDef>
 
@@ -214,10 +223,11 @@
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
 		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
 		<tags>
-			<li>Water</li>
+			<li>dbh_s_water</li>
 		</tags>
 	</TerrainDef>
 	
