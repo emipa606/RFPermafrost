@@ -56,4 +56,149 @@
 		</match>
 	</Operation>
 	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>StarWars Animal Collection</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Rancor"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.001</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Bantha"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.001</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Nexu"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.001</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Tauntaun"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.1</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="KraytDragon"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.001</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Reek"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.001</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Nerf"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.03</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Gizka"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.1</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Porg"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.01</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Vulptex"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.01</Permafrost>
+					</value>
+				</li>	
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Wampa"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.1</Permafrost>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Erin's Mountain Animals</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Argali"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.1</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Snow_leopard"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.01</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Pika"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.15</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="Pallas_cat"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.01</Permafrost>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Tundra</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="AEXP_Muskox"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.4</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="AEXP_Moose"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.3</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="AEXP_MegaWolverine"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.1</Permafrost>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="AEXP_Porcupine"]/race/wildBiomes</xpath>
+					<value>
+						<Permafrost>0.1</Permafrost>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	
 </Patch>
