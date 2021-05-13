@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<BiomeDef Name="Permafrost">
+	<BiomeDef>
 		<defName>Permafrost</defName>
 		<label>permafrost</label>
 		<description>Permafrost exists on the border between tundra and ice sheets. The ground is permanently frozen, and much of it is covered in ice, but the ice is at most a few meters, rather than kilometers, thick. There is little vegetation beyond scrub brush, and few animals.</description>
