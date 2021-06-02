@@ -103,6 +103,7 @@
 		<affordances>
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
+			<li>MovingFluid</li>
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
@@ -125,6 +126,7 @@
 		<affordances>
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
+			<li>MovingFluid</li>
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
@@ -147,6 +149,7 @@
 		<affordances>
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
+			<li>MovingFluid</li>
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
@@ -169,6 +172,7 @@
 		<affordances>
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
+			<li>MovingFluid</li>
 		</affordances>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>

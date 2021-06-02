@@ -107,6 +107,7 @@
 		<affordances>
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
+			<li>MovingFluid</li>
 		</affordances>
 		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
@@ -130,6 +131,7 @@
 		<affordances>
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
+			<li>MovingFluid</li>
 		</affordances>
 		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
@@ -153,6 +155,7 @@
 		<affordances>
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
+			<li>MovingFluid</li>
 		</affordances>
 		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
@@ -176,6 +179,7 @@
 		<affordances>
 			<li>Permafrost_Ice</li>
 			<li>Bridgeable</li>
+			<li>MovingFluid</li>
 		</affordances>
 		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
