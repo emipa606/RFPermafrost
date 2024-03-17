@@ -30,11 +30,18 @@ I wouldn't expect this mod to conflict with any other mods.
 
 If you're a modpack maker and want to include "Permafrost" in your pack, or if you're a modder and want to use it as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it. 
 
-# *The Ludeon forums discussion thread for my mods can be found https://ludeon.com/forums/index.php?topic=46165]here.
-
 If you have any (helpful) suggestions for improvement, please let me know!
 
-My mods are free, but if you'd like to http://ko-fi.com/rainbeau]buy me a Dr Pepper, I wouldn't complain.*
+[hr]
+Extra info from the 1.1-1.3 updated version:
+I have updated Permafrost for both 1.1 and 1.2, as well as making some minor changes and adding compatibility. Flowing water now freezes at a lower temperature than still water (ponds and marshes), and for both types there are a range of temperatures at which both new ice will form, and existing ice will melt, making ice formation and thawing much more dynamic and interesting.
+
+Highly recommended that you also use a mod like [XND] Watermill Tweaks (Continued) to reduce watermill power output during winter and when it is particularly cold.
+https://steamcommunity.com/sharedfiles/filedetails/?id=2055956298
+
+Compatibility for Vanilla Fishing Expanded has been added
+Compatible with Terraform Rimworld (based on preliminary testing)
+Compatible with Dub's Bad Hygiene with his next update (10/10/20)
 
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
@@ -47,5 +54,9 @@ My mods are free, but if you'd like to http://ko-fi.com/rainbeau]buy me a Dr Pep
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
 
+
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/3027775257]![Image](https://img.shields.io/github/v/release/emipa606/RFPermafrost?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 

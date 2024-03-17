@@ -4,13 +4,9 @@ using Verse;
 
 namespace RPF_Code;
 
-public class Lakes : MapComponent
+public class Lakes(Map map) : MapComponent(map)
 {
     public int cycleIndex;
-
-    public Lakes(Map map) : base(map)
-    {
-    }
 
     public override void MapComponentTick()
     {
