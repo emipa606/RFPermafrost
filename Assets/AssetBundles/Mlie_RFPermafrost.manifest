@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 2075363841
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: afea1536aa4d9b96263c4f212d0c3d04
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: afea1536aa4d9b96263c4f212d0c3d04
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.RFPermafrost/Textures/WorldMaterials/BiomesKit/Permafrost/Hills/Impassable.png
+- Assets/Data/Mlie.RFPermafrost/Textures/WorldMaterials/BiomesKit/Permafrost/Forest/Forest.png
+- Assets/Data/Mlie.RFPermafrost/Textures/Ice_Thin_Marsh.png
+- Assets/Data/Mlie.RFPermafrost/Textures/WorldMaterials/BiomesKit/Permafrost/Hills/Mountains.png
+- Assets/Data/Mlie.RFPermafrost/Textures/WorldMaterials/BiomesKit/Permafrost/Forest/Forest_Dense.png
+- Assets/Data/Mlie.RFPermafrost/Textures/WorldMaterials/BiomesKit/Permafrost/Hills/SmallHills.png
+- Assets/Data/Mlie.RFPermafrost/Textures/Biome_Permafrost.png
+- Assets/Data/Mlie.RFPermafrost/Textures/WorldMaterials/BiomesKit/Permafrost/Hills/LargeHills.png
+- Assets/Data/Mlie.RFPermafrost/Textures/Ice_Thin.png
+- Assets/Data/Mlie.RFPermafrost/Textures/WorldMaterials/BiomesKit/Permafrost/Forest/Forest_Sparse.png
+Dependencies: []

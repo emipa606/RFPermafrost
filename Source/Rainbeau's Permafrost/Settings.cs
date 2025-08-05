@@ -15,7 +15,15 @@ public class Settings : ModSettings
         };
         list.Begin(canvas);
         list.Gap();
-        list.CheckboxLabeled("RPF.WaterFreezes".Translate(), ref waterFreezes, "RPF.WaterFreezesTip".Translate());
+        if (ModLister.OdysseyInstalled)
+        {
+            list.Label("RPF.OdysseyInstalled".Translate());
+        }
+        else
+        {
+            list.CheckboxLabeled("RPF.WaterFreezes".Translate(), ref waterFreezes, "RPF.WaterFreezesTip".Translate());
+        }
+
         list.Gap();
         list.End();
     }

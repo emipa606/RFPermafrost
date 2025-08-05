@@ -6,12 +6,12 @@ namespace RPF_Code;
 
 public class Lakes(Map map) : MapComponent(map)
 {
-    public int cycleIndex;
+    private int cycleIndex;
 
     public override void MapComponentTick()
     {
         base.MapComponentTick();
-        if (Controller.Settings.waterFreezes.Equals(false))
+        if (ModLister.OdysseyInstalled || Controller.Settings.waterFreezes.Equals(false))
         {
             return;
         }

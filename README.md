@@ -1,12 +1,13 @@
-# RFPermafrost
+# [[RF] Permafrost (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3027775257)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Rainbeau Flambes mod https://steamcommunity.com/sharedfiles/filedetails/?id=1540322147
 based on the 1.1-1.3 version by trooperSmith1 https://steamcommunity.com/sharedfiles/filedetails/?id=2021524321
 
-![Image](https://i.imgur.com/pufA0kM.png)
+- If Odyssey is loaded, the freezing of water will not be active from this mod.
 
+![Image](https://i.imgur.com/pufA0kM.png)
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -18,14 +19,14 @@ Note that if you have a fishing spot (whether from my own "Fishing" mod, "Thanks
 
 - Rainbeau Flambe (dburgdorf)**
 
-# **[u]Compatibility:[/u]**
+# **<ins>Compatibility:</ins>**
 
 
 I wouldn't expect this mod to conflict with any other mods. 
 
 "Permafrost" can safely be added to a game in progress, though obviously, it won't add new biomes to an already-generated map. Trying to remove the mod from a game in progress, however, would be ill-advised.
 
-# **[u]License:[/u]**
+# **<ins>License:</ins>**
 
 
 If you're a modpack maker and want to include "Permafrost" in your pack, or if you're a modder and want to use it as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it. 
@@ -50,13 +51,12 @@ Compatible with Dub's Bad Hygiene with his next update (10/10/20)
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/3027775257]![Image](https://img.shields.io/github/v/release/emipa606/RFPermafrost?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/RFPermafrost?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3027775257) | tags:  freezing,  biome
