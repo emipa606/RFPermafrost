@@ -1,4 +1,5 @@
-﻿using RimWorld;
+﻿using System.Linq;
+using RimWorld;
 using Verse;
 
 namespace RPF_Code;
@@ -8,16 +9,16 @@ internal static class RPF_Initializer
 {
     static RPF_Initializer()
     {
-        foreach (var current in DefDatabase<ThingDef>.AllDefsListForReading)
+        foreach (var plant in DefDatabase<ThingDef>.AllDefsListForReading.Select(def => def.plant))
         {
-            if (current.plant?.wildBiomes == null)
+            if (plant?.wildBiomes == null)
             {
                 continue;
             }
 
-            for (var j = 0; j < current.plant.wildBiomes.Count; j++)
+            for (var j = 0; j < plant.wildBiomes.Count; j++)
             {
-                if (current.plant.wildBiomes[j].biome.defName != "Tundra")
+                if (plant.wildBiomes[j].biome.defName != "Tundra")
                 {
                     continue;
                 }
@@ -25,22 +26,22 @@ internal static class RPF_Initializer
                 var newRecord = new PlantBiomeRecord
                 {
                     biome = BiomeDef.Named("Permafrost"),
-                    commonality = current.plant.wildBiomes[j].commonality / 2
+                    commonality = plant.wildBiomes[j].commonality / 2
                 };
-                current.plant.wildBiomes.Add(newRecord);
+                plant.wildBiomes.Add(newRecord);
             }
         }
 
-        foreach (var current in DefDatabase<PawnKindDef>.AllDefs)
+        foreach (var wildBiomes in DefDatabase<PawnKindDef>.AllDefs.Select(def => def.RaceProps.wildBiomes))
         {
-            if (current.RaceProps.wildBiomes == null)
+            if (wildBiomes == null)
             {
                 continue;
             }
 
-            for (var j = 0; j < current.RaceProps.wildBiomes.Count; j++)
+            for (var j = 0; j < wildBiomes.Count; j++)
             {
-                if (current.RaceProps.wildBiomes[j].biome.defName != "Tundra")
+                if (wildBiomes[j].biome.defName != "Tundra")
                 {
                     continue;
                 }
@@ -48,9 +49,9 @@ internal static class RPF_Initializer
                 var newRecord = new AnimalBiomeRecord
                 {
                     biome = BiomeDef.Named("Permafrost"),
-                    commonality = current.RaceProps.wildBiomes[j].commonality / 2
+                    commonality = wildBiomes[j].commonality / 2
                 };
-                current.RaceProps.wildBiomes.Add(newRecord);
+                wildBiomes.Add(newRecord);
             }
         }
     }

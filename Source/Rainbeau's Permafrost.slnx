@@ -6,4 +6,16 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="Rainbeau's Permafrost/Rainbeau's Permafrost.csproj" />
+  <Folder Name="/XML/1.7/Defs/">
+    <File Path="../1.7/Defs/Biomes_Permafrost.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/Patch.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/LanguageData.xml" />
+  </Folder>
 </Solution>

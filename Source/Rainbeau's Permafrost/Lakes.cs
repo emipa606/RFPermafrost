@@ -282,12 +282,9 @@ public class Lakes(Map map) : MapComponent(map)
                     }
                 }
 
-                if (quickThaw == 1)
+                if (quickThaw == 1 && Rand.Value < 0.67f)
                 {
-                    if (Rand.Value < 0.67f)
-                    {
-                        quickThaw = 0;
-                    }
+                    quickThaw = 0;
                 }
 
                 if (Rand.Value < shallowChance * quickThaw)
@@ -359,12 +356,9 @@ public class Lakes(Map map) : MapComponent(map)
                     }
                 }
 
-                if (quickThaw == 1)
+                if (quickThaw == 1 && Rand.Value < 0.67f)
                 {
-                    if (Rand.Value < 0.67f)
-                    {
-                        quickThaw = 0;
-                    }
+                    quickThaw = 0;
                 }
 
                 if (Rand.Value < shallowChance * quickThaw)
